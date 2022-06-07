@@ -1,0 +1,52 @@
+/* Estos son estilos generales */
+body {
+  	margin:0px;
+  	height:100%;
+	background-color:#8AC475;
+}
+/* Este es el estilo de contenedor principal*/
+.principal{
+	flex-direction: column;
+}
+/* Estilos del navegador*/
+.nav{
+	display: flex;
+	flex-direction: row-reverse;
+	background-color:#A4A746;
+	padding: 1em;
+}
+.nav ul li{
+	display: inline;
+	padding-right: 0.5em;
+}
+/*Estilos de la seccion conocenos*/
+.conocenos div {
+	text-align: center;
+	background-color:#1B4E67;
+	padding: 1em;
+}
+/*Estilos de la seccion proyectos*/
+.proyectos{
+	background-color: #585858;
+}
+.grid{
+	display: grid;
+	row-gap: 1em;
+	column-gap: 1em;
+	grid-template-columns: 50% 50%;
+	padding: 1em;
+}
+.grid div{
+	text-align: center;
+	padding: 2em;
+	background-color:#217048;
+}
+.grid div:hover{
+	border: 2px solid #162712;
+}
+/* Estilos de la seccion contacto*/
+.contacto{
+	text-align: center;
+	padding: 1em;
+	background-color:#43887C;
+}
