@@ -1,8 +1,10 @@
 /* Estos son estilos generales */
 body {
+	font-family: 'Roboto', sans-serif;
   	margin:0px;
   	height:100%;
-	background-color:#8AC475;
+	background-color:#fff;
+	color:#d45500;
 }
 /* Este es el estilo de contenedor principal*/
 .principal{
@@ -12,41 +14,83 @@ body {
 .nav{
 	display: flex;
 	flex-direction: row-reverse;
-	background-color:#A4A746;
 	padding: 1em;
 }
 .nav ul li{
 	display: inline;
-	padding-right: 0.5em;
+	padding-right: 3.5em;
+	color:#d45500;
 }
 /*Estilos de la seccion conocenos*/
+.conocenos {
+	display: flex;
+}
 .conocenos div {
+	background-color: transparent;
 	text-align: center;
-	background-color:#1B4E67;
+	height: 550px;
 	padding: 1em;
+}
+#con1{
+	width:100%;
+	margin-left: -500px;
+}
+.conocenos #con1 img{
+	width: 800px;
+  	height: 100%; 	
+}
+#con2{
+	color:#d45500;
+	background-color: transparent;
+	width:100%;
+}
+#con2 p{
+	background-color: transparent;
+	padding-top: 120px;
+	font-size: 350%;	
 }
 /*Estilos de la seccion proyectos*/
 .proyectos{
-	background-color: #585858;
+	margin-top: 10%;
 }
 .grid{
 	display: grid;
-	row-gap: 1em;
-	column-gap: 1em;
+	row-gap: 1.5em;
 	grid-template-columns: 50% 50%;
 	padding: 1em;
+	margin-left: 10%;
+	
 }
 .grid div{
+	border-radius: 25px;
 	text-align: center;
 	padding: 2em;
-	background-color:#217048;
+	background-color:#FFBE8D;
+	height: 300px;
+	width: 500px;
+	transition: ease-in-out .5s;
+	font-size: 130%;
+	
 }
-.grid div:hover{
-	border: 2px solid #162712;
+ .grid div:hover {
+	box-shadow: 0 0 15px rgba(33,33,33,.3); 
+}
+.proyectos #pro1{
+	text-align: center;
+	height: 60px;
+	font-size: 200%;
 }
 /* Estilos de la seccion contacto*/
 .contacto{
 	text-align: center;
+	margin: 50px;
 	padding: 1em;
-	background-color:#43887C;
+	
+}
+.contacto ul li{
+	display: inline;
+	padding-right: 3.5em;
+}
+.material-icons{
+	font-size: 80px;
 }
