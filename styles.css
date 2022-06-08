@@ -24,6 +24,7 @@ body {
 /*Estilos de la seccion conocenos*/
 .conocenos {
 	display: flex;
+	flex-direction: row;
 }
 .conocenos div {
 	background-color: transparent;
@@ -52,20 +53,20 @@ body {
 /*Estilos de la seccion proyectos*/
 .proyectos{
 	margin-top: 10%;
-	
 	text-align: center;
 }
-.grid{
-	
+.grid{	
 	display: grid;
 	gap: 1rem;
 	grid-auto-flow:dense;
 	grid-auto-rows: 22rem;
 	grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
 	place-items: center;
+	margin: 0 auto;
+	
 }
 .grid div{
-	position: relative;
+	margin-left: 50%;
 	border-radius: 25px;
 	text-align: center;
 	background-color:#FFBE8D;
@@ -74,8 +75,7 @@ body {
 	transition: ease-in-out .5s;
 	font-size: 130%;
 	grid-column: span 2;
-	margin-left: 50%;
-	
+  	font-size: 3em;	
 }
  .grid div:hover {
 	box-shadow: 0 0 15px rgba(33,33,33,.3); 
