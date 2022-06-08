@@ -50,28 +50,44 @@ body {
 	padding-top: 120px;
 	font-size: 350%;	
 }
+/* Estilos de la seccion conocenos 2*/
+.conocenos2{
+	display: flex;
+	flex-direction: column;
+}
+.con12{
+	display: flex;
+	flex-direction: row;
+	background-color:#959743;
+	gap: 15px;
+	width: fit-content;
+	margin: auto;
+}
+.con22{
+	text-align: center;
+	background-color:#642829;
+}
 /*Estilos de la seccion proyectos*/
 .proyectos{
 	margin-top: 10%;
 	text-align: center;
 }
-.grid{	
+.grid{
+	margin-left: 20%;
+	margin-right: 20%;
 	display: grid;
-	gap: 1rem;
+	gap: 0.5rem;
 	grid-auto-flow:dense;
 	grid-auto-rows: 22rem;
 	grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
-	place-items: center;
-	margin: 0 auto;
-	
+	place-items: center;	
 }
 .grid div{
-	margin-left: 50%;
 	border-radius: 25px;
 	text-align: center;
 	background-color:#FFBE8D;
-	height: 300px;
-	width: 400px;
+	height: 250px;
+	width: 350px;
 	transition: ease-in-out .5s;
 	font-size: 130%;
 	grid-column: span 2;
@@ -118,8 +134,34 @@ body {
 	background: linear-gradient(#d45500 0 0) bottom/100% calc(100% - var(--_i,1)*100%) no-repeat;
   	overflow: hidden;
   	transition: 0.3s;
-	
 }
 .ani1 h3:hover {
   	--_i: 0;
+}
+/*MEDIA QUERYS*/
+@media (max-width: 480px) {
+  	body {
+
+	}
+	#con2{
+		display: none;
+	}
+	#con1{
+		margin-left: 0;
+		height: auto;
+	}
+	#pro1{
+		margin-top: 50px;
+	}
+	.conocenos #con1 img{
+	width: 300px;
+  	height: auto; 	
+	}
+	.grid div{
+		height: 250px;
+		width: 300px;
+	}
+	.nav{
+	display: none;
+	}
 }
