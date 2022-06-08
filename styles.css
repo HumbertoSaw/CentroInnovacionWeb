@@ -60,7 +60,7 @@ body {
 	gap: 1rem;
 	grid-auto-flow:dense;
 	grid-auto-rows: 22rem;
-	grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
 	place-items: center;
 	margin: 0 auto;
 	
