@@ -4,7 +4,7 @@ body {
   	margin:0px;
   	height:100%;
 	background-color:#fff;
-	color:#d45500;
+	color:var(--gris);
 }
 /* Este es el estilo de contenedor principal*/
 .principal{
@@ -17,9 +17,9 @@ body {
 	padding: 1em;
 }
 .nav ul li{
+	color: var(--naranja);
 	display: inline;
 	padding-right: 3.5em;
-	color:#d45500;
 }
 /*Estilos de la seccion conocenos*/
 .conocenos {
@@ -41,9 +41,23 @@ body {
   	height: 100%; 	
 }
 #con2{
-	color:#d45500;
 	background-color: transparent;
 	width:100%;
+}
+#con2 caption{
+	font-size:30%;
+}
+#con2 #em1{
+	color: var(--verde);
+}
+#con2 #em2{
+	color: var(--violeta);
+}
+#con2 #em3{
+	color: var(--azul);
+}
+#con2 #em4{
+	color: var(--rojo);
 }
 #con2 p{
 	background-color: transparent;
@@ -54,18 +68,62 @@ body {
 .conocenos2{
 	display: flex;
 	flex-direction: column;
+	margin-top: 150px;
 }
 .con12{
 	display: flex;
 	flex-direction: row;
-	background-color:#959743;
-	gap: 15px;
-	width: fit-content;
+	gap: 300px;
 	margin: auto;
 }
+.con12 div{
+	text-align: center
+}
+#bla{
+	display: flex;
+	flex-direction: column;
+}
+#bla img{
+	width:200px;
+    height:200px;
+	border-radius:150px;
+}
+#bla h2{
+	color:var(--azul);
+}
+#may{
+	display: flex;
+	flex-direction: column;
+}
+#may h2{
+	color: var(--rojo);
+}
+#may img{
+	width:200px;
+    height:200px;
+	border-radius:150px;
+}
+#agu{
+	display: flex;
+	flex-direction: column;
+}
+#agu img{
+	width:200px;
+    height:200px;
+	border-radius:150px;
+}
+#agu h2{
+	color: var(--verde);
+}
 .con22{
+	padding-top: 150px;
 	text-align: center;
-	background-color:#642829;
+  	text-justify: inter-word;
+	width: 80%;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	gap: 250px;
 }
 /*Estilos de la seccion proyectos*/
 .proyectos{
@@ -85,7 +143,7 @@ body {
 .grid div{
 	border-radius: 25px;
 	text-align: center;
-	background-color:#FFBE8D;
+	background-color:var(--rojo);
 	height: 250px;
 	width: 350px;
 	transition: ease-in-out .5s;
@@ -164,4 +222,15 @@ body {
 	.nav{
 	display: none;
 	}
+}
+
+/* COLORES */
+:root {
+  	--azul: #66B2FF;
+  	--rojo: #FF6666;
+	--gris: #666666;
+	--violeta: #B266FF;
+	--verde: #76C476;
+	--naranja: #d45500;
+	
 }
