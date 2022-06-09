@@ -73,11 +73,17 @@ body {
 .con12{
 	display: flex;
 	flex-direction: row;
-	gap: 300px;
+	gap: 200px;
 	margin: auto;
 }
 .con12 div{
 	text-align: center
+}
+.con12 img{
+	transition: transform .5s ease;
+}
+.con12 img:hover{
+	transform: scale(1.1);
 }
 #bla{
 	display: flex;
@@ -95,13 +101,13 @@ body {
 	display: flex;
 	flex-direction: column;
 }
-#may h2{
-	color: var(--rojo);
-}
 #may img{
 	width:200px;
     height:200px;
 	border-radius:150px;
+}
+#may h2{
+	color: var(--rojo);
 }
 #agu{
 	display: flex;
@@ -115,20 +121,55 @@ body {
 #agu h2{
 	color: var(--verde);
 }
+.tit{
+	margin-top: 20px;
+	font-size:130%;
+	color: var(--naranja);
+}
 .con22{
-	padding-top: 150px;
+	padding-top: 180px;
 	text-align: center;
   	text-justify: inter-word;
 	width: 80%;
 	margin: auto;
 	display: flex;
+	flex-direction: column;
+	gap: 130px;
+}
+.valores{
+	display: flex;
 	flex-direction: row;
-	gap: 250px;
+	align-items: center;
+    justify-content: center;
+	width: 80%;
+	margin:auto;
+	gap: 100px;
+}
+.valores img{
+	width: 350px;
+	height: 100%;
+}
+.val{
+	text-align: justify;
+  	text-justify: inter-word;
+	font-size:130%;
+}
+.val span{
+	font-size: 130%;
+	color: var(--naranja);
 }
 /*Estilos de la seccion proyectos*/
 .proyectos{
 	margin-top: 10%;
 	text-align: center;
+}
+.mision{
+	display: flex;
+	flex-direction: row;
+}
+.vision{
+	display: flex;
+	flex-direction: row;
 }
 .grid{
 	margin-left: 20%;
@@ -143,16 +184,15 @@ body {
 .grid div{
 	border-radius: 25px;
 	text-align: center;
-	background-color:var(--rojo);
+	background-color:var(--rojobajo);
 	height: 250px;
 	width: 350px;
 	transition: ease-in-out .5s;
-	font-size: 130%;
+	font-size: 120%;
 	grid-column: span 2;
-  	font-size: 3em;	
 }
  .grid div:hover {
-	box-shadow: 0 0 15px rgba(33,33,33,.3); 
+	transform: scale(1.1); 
 }
 .proyectos #pro1{
 	text-align: center;
@@ -161,27 +201,43 @@ body {
 }
 /* Estilos de la seccion contacto*/
 .contacto{
-	text-align: center;
 	
 }
 .contacto p{
-	font-size: 200%;
+	text-align: center;
+	font-size: 150%;
 }
 .contacto ul li{
-	display: inline;
-	padding-right: 3.5em;
+	list-style: none;
+	padding-top: 15px;
+	font-size:23px;
 }
 .material-icons{
-	font-size: 80px;
+	vertical-align: bottom;
+   	font-size:23px;
 }
-.con1{
-	margin-top: 70px;
-	margin-bottom: 70px;
+.contacto1{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: fit-content;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	gap:130px;
+}
+/*Estilos de la seccion footer*/
+footer{
+	background-color: var(--gris);
+	color: black;
+	text-align: center;
+}
+footer p{
+	height: 25px;
 }
 /* TEST */
 .ani1 h3{
 	margin: auto;
-	font-size: 350%;
+	font-size: 230%;
 	width: fit-content;
 }
 .ani1 h3 {
@@ -228,6 +284,7 @@ body {
 :root {
   	--azul: #66B2FF;
   	--rojo: #FF6666;
+	--rojobajo: #ff8c8c ;
 	--gris: #666666;
 	--violeta: #B266FF;
 	--verde: #76C476;
