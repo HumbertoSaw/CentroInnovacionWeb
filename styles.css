@@ -36,6 +36,18 @@ body {
 	color: var(--naranjafuerte);
 }
 /*Estilos de la seccion conocenos*/
+#quien{
+	font-size: 160%;
+	color: var(--naranja);
+	text-align: center;
+	margin-top: 120px;
+}
+#meta{
+	font-size: 160%;
+	color: var(--naranja);
+	text-align: center;
+	margin-top: 250px;
+}
 .conocenos {
 	display: flex;
 	flex-direction: row;
@@ -83,7 +95,7 @@ body {
 .conocenos2{
 	display: flex;
 	flex-direction: column;
-	margin-top: 150px;
+	margin-top: 50px;
 }
 .con12{
 	display: flex;
@@ -142,7 +154,7 @@ body {
 	color: var(--naranja);
 }
 .con22{
-	padding-top: 200px;
+	margin-top: 50px;
 	text-align: center;
   	text-justify: inter-word;
 	width: 80%;
@@ -213,6 +225,9 @@ body {
 	text-align: center;
 	height: 60px;
 	font-size: 200%;
+}
+#pro1 p{
+	color: black;
 }
 /* Estilos de la seccion contacto*/
 .contacto{

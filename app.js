@@ -13,7 +13,7 @@ const botonIrConocenos = document.querySelector("#botonIrConocenos");
 
 botonIrConocenos.addEventListener("click", function(){
 	window.scrollTo({
-		top:600,
+		top:650,
 		left:0,
 		behavior: "smooth"
 
@@ -24,7 +24,7 @@ const botonIrProyectos = document.querySelector("#botonIrProyectos");
 
 botonIrProyectos.addEventListener("click", function(){
 	window.scrollTo({
-		top:2040,
+		top:2180,
 		left:0,
 		behavior: "smooth"
 
@@ -35,7 +35,7 @@ const botonIrContactos = document.querySelector("#botonIrContactos");
 
 botonIrContactos.addEventListener("click", function(){
 	window.scrollTo({
-		top:2800,
+		top:3900,
 		left:0,
 		behavior: "smooth"
 
