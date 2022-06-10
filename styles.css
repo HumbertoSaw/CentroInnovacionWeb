@@ -15,16 +15,31 @@ body {
 	display: flex;
 	flex-direction: row-reverse;
 	padding: 1em;
+	position: fixed;
+  	top: 0;
+  	width: 100%;
+	background-color: white;
 }
 .nav ul li{
 	color: var(--naranja);
 	display: inline;
 	padding-right: 3.5em;
 }
+.nav button{
+	text-decoration: none;
+	border: none;
+	color: var(--naranja);
+	background-color: #fff;
+	font-size: 120%;
+}
+.nav button:hover{
+	color: var(--naranjafuerte);
+}
 /*Estilos de la seccion conocenos*/
 .conocenos {
 	display: flex;
 	flex-direction: row;
+	margin-top: 80px;
 }
 .conocenos div {
 	background-color: transparent;
@@ -127,7 +142,7 @@ body {
 	color: var(--naranja);
 }
 .con22{
-	padding-top: 180px;
+	padding-top: 200px;
 	text-align: center;
   	text-justify: inter-word;
 	width: 80%;
@@ -227,8 +242,8 @@ body {
 }
 /*Estilos de la seccion footer*/
 footer{
-	background-color: var(--gris);
-	color: black;
+	background-color: white;
+	color: var(--gris);
 	text-align: center;
 }
 footer p{
@@ -289,5 +304,6 @@ footer p{
 	--violeta: #B266FF;
 	--verde: #76C476;
 	--naranja: #d45500;
+	--naranjafuerte: #8e3900;
 	
 }
