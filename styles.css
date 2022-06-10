@@ -71,6 +71,10 @@ body {
 	background-color: transparent;
 	width:100%;
 }
+#con2 h3{
+	color: var(--naranjafuerte);
+	padding-top: 50px;
+}
 #con2 caption{
 	font-size:30%;
 }
@@ -88,7 +92,7 @@ body {
 }
 #con2 p{
 	background-color: transparent;
-	padding-top: 120px;
+	padding-top: 80px;
 	font-size: 350%;	
 }
 /* Estilos de la seccion conocenos 2*/
