@@ -266,6 +266,7 @@ footer p{
 }
 /* TEST */
 .ani1 h3{
+	text-align: center;
 	margin: auto;
 	font-size: 230%;
 	width: fit-content;
@@ -305,8 +306,56 @@ footer p{
 		height: 250px;
 		width: 300px;
 	}
+	.grid{
+		grid-gap:1px;
+	}
 	.nav{
 	display: none;
+	}
+	.con12{
+	display: flex;
+	flex-direction: column;
+	}
+	.valores{
+		display: flex;
+		flex-direction: column;
+		gap:20px;
+	}
+	.contacto1{
+		display: flex;
+		flex-direction: column;
+	}
+	.map{
+		width: fit-content;
+		margin: auto;
+	}
+	.gmap{
+		width:300px;
+		height:250px;
+	}
+	.contacto ul li{
+		font-size:18px;
+	}
+	#quien{
+		margin-top: 80px;
+	}
+	#meta{
+		margin-top: 120px;
+	}
+	.con12{
+		gap:50px;
+	}
+	.contacto1{
+		gap:50px;
+	}
+	.con22{
+		margin-top: 20px;
+	}
+	.conocenos2{
+		margin-top: 10px;
+	}
+	.val{
+		text-align: 
 	}
 }
 
