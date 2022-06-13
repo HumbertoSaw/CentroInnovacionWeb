@@ -35,16 +35,21 @@ body {
 .nav button:hover{
 	color: var(--naranjafuerte);
 }
+.bienvenida{
+	padding-top: 80px;
+	color:var(--naranjafuerte);
+	text-align: center;
+}
 /*Estilos de la seccion conocenos*/
 #quien{
 	font-size: 160%;
-	color: var(--naranja);
+	color: var(--naranjafuerte);
 	text-align: center;
 	margin-top: 120px;
 }
 #meta{
 	font-size: 160%;
-	color: var(--naranja);
+	color: var(--naranjafuerte);
 	text-align: center;
 	margin-top: 250px;
 }
@@ -231,7 +236,7 @@ body {
 	font-size: 200%;
 }
 #pro1 p{
-	color: black;
+	color: var(--naranjafuerte);
 }
 /* Estilos de la seccion contacto*/
 .contacto{
@@ -276,13 +281,8 @@ footer p{
 	width: fit-content;
 }
 .ani1 h3 {
-  	--h: 1.2em;
-  	line-height: var(--h);
-  	color: #0000;
-  	text-shadow: 0 var(--_i,var(--h)) #fff,0 0 rgb(0 0 0 / var(--_i,1));
-	background: linear-gradient(#d45500 0 0) bottom/100% calc(100% - var(--_i,1)*100%) no-repeat;
-  	overflow: hidden;
-  	transition: 0.3s;
+  	color: var(--naranjafuerte);
+  	
 }
 .ani1 h3:hover {
   	--_i: 0;
@@ -314,7 +314,17 @@ footer p{
 		grid-gap:1px;
 	}
 	.nav{
-	display: none;
+		width: fit-content;
+		margin: auto;
+		text-align: center;
+		padding: 5px;
+		
+	}
+	.nav ul li{
+		padding-right: 10px;
+	}
+	#botonIrArriba{
+		display: none;
 	}
 	.con12{
 	display: flex;
@@ -374,4 +384,32 @@ footer p{
 	--naranja: #d45500;
 	--naranjafuerte: #8e3900;
 	
+}
+ /* unvisited link */
+a:link {
+  text-decoration: none;
+  color:var (--gris);
+}
+
+/* visited link */
+a:visited {
+  color: var(--gris);
+}
+
+/* mouse over link */
+a:hover {
+  color: var(--gris);
+}
+
+/* selected link */
+a:active {
+  color: var(--gris);
+}
+a[href^="mailto:"]
+{ 
+  color: var(--gris);
+
+}
+a[href^="tel:"]{
+	color: var(--gris);
 }
