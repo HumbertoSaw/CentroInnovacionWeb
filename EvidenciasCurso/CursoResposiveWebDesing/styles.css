@@ -1,0 +1,285 @@
+nav ul {
+	-webkit-padding-start: 0;
+}
+
+/*RESOLUCION BAJA */
+@media only screen and (max-width: 480px) { 
+	p{
+		color: rgb(0,0,0);
+	} 
+
+	body{
+		background: rgb(244,244,244);
+	}
+
+	#master{
+		width: 95%;
+		margin: 0 auto;
+		background: rgb(255,255,255);
+		border: 1px solid rgb(193,180,152);
+	}
+
+	header{
+	
+		height: 130px;
+	}
+	nav{
+		background: rgb(0,0,0);
+		text-align: center;
+		margin-bottom: 10px;
+		padding: 10px 5px;
+	}
+	nav li{
+		display: inline;
+		margin-left: 10px;
+		font-size: 120%;
+		line-height: 160%;
+	}
+	nav li a{
+		color: rgb(255,255,255);
+		text-decoration: none;
+	}
+
+	#slideshow{
+		display: none;
+	}
+
+	.contentbox{
+		float: left;
+		border-top: 1px solid rgb(193,180,152);
+		border-bottom: 1px solid rgb(193,180,152);
+		padding: 10px; margin-bottom: 10px;
+		text-align: center;
+	}
+	.contentbox p{
+		font-family: verdana;
+		font-size: 80%;
+		line-height: 150%;
+		text-align: left;
+	}
+	article{
+		width: 95%;
+		margin-left: 10px;
+		margin-bottom: 60px;
+	}
+
+	.news{
+		margin-bottom: 20px;
+	}
+	.news h2{
+		font-size: 120%;
+		margin-bottom: 5px;
+	}
+	.news h2 a{
+		text-decoration: none;
+		color: rgb(189,30,44);
+	}
+	.news p{
+		line-height: 160%;
+	}
+	.newsmeta{
+		font-size:70%;
+		margin-top:5px;
+		float: right;
+		font-family: verdana;
+	}
+	.newsmeta a{
+		color: rgb(189,30,44);
+	}
+
+	footer nav{
+		margin-bottom: 0;
+		font-size: 80%;
+		font-family: verdana;
+	}
+}
+
+/*RESOLUCION MEDIA*/
+@media only screen and (min-width: 481px) { 
+	p {
+		color: rgb(0,0,0);
+	}
+
+	body {
+		background: rgb(244,244,244);
+	}
+
+	#master {
+		width: 95%;
+		margin: 0 auto;
+		border: 1px solid rgb(193,180,152);
+		background: rgb(255,255,255);
+	}
+
+	header {
+		height: 130px;
+	}
+
+	nav {
+		background: rgb(0,0,0);
+		text-align: center;
+		padding: 10px 5px;
+		margin-bottom: 20px;
+	}
+	nav li {
+		display: inline;
+		margin-left: 10px;
+		font-size: 110%;
+		line-height: 160%;
+	}
+	nav li a {
+		color: rgb(255,255,255);
+		text-decoration: none;
+	}
+
+	#slideshow {
+		width: 50%;
+		margin: 10px auto;
+	}
+	#slideshow img{
+		display:block;
+		margin: 0 auto;
+		width: 50%;
+		border: 1px solid rgb(193,180,152);
+	}
+
+	.contentbox {
+		float: left;
+		border-top: 1px solid rgb(193,180,152);
+		border-bottom: 1px solid rgb(193,180,152);
+		padding: 10px; margin-bottom: 10px;
+	}
+	.contentbox p {
+		font-family: verdana;
+		font-size: 80%;
+		line-height: 140%;
+	}
+	.contentbox img {
+		float: left;
+		margin-right: 10px;
+	}
+	article {
+		width: 95%;
+		margin-left: 10px;
+		margin-bottom: 50px;
+	}
+	.news {
+		margin-bottom: 20px;
+	}
+	.news h2 {
+		font-size: 120%;
+		margin-bottom: 5px;
+	}
+	.news h2 a {
+		text-decoration: none;
+		color: rgb(189,30,44);
+	}
+	.newsmeta {
+		font-size: 70%;
+		margin-top: 5px;
+		float: right;
+		font-family: verdana;
+	}
+	.newsmeta a {
+		color: rgb(189,30,44);
+	}
+
+	footer nav {
+		margin-bottom: 0; font-size: 80%; font-size: verdana;
+	}
+}
+
+/*RESOLUCION ALTA*/
+@media only screen and (min-width: 1024px) { 
+	p {
+		color: rgb(0,0,0);
+	} 
+	body {
+		background: rgb(244,244,244);
+	}
+	#master {
+		background: rgb(255,255,255);
+		width: 960px;
+		margin: 0 auto;
+		border: 1px solid rgb(193,180,152);
+	}
+	header {
+		width: 960px;
+		height: 130px;
+	}
+	nav {
+		width: 960px;
+		height: 35px;
+		background: rgb(0,0,0);
+		text-align: center;
+		padding: 10px 0;
+		margin-bottom: 20px; 
+	}
+	nav li {
+		display:inline;
+		margin-left:10px;
+		font-size: 105%;
+	}
+	nav li a {
+		color: rgb(255,255,255);
+		text-decoration: none;
+	}
+	#slideshow {
+		width: 800px;
+		height: 200px;
+		border: 1px solid rgb(193,180,152);
+		margin: 10px auto;
+	}
+	#slideshow img{
+		width: 700px;
+		height: 200px;
+		display:block;
+		margin: 0 auto;
+	}
+	.contentbox {
+		width: 300px;
+		float: left;
+		border-top: 1px solid rgb(193,180,152);
+		border-bottom: 1px solid rgb(193,180,152);
+		padding: 10px; margin-bottom: 10px;
+	}
+	.contentbox p {
+		font-family: verdana;
+		font-size:80%;
+		line-height: 140%;
+	}
+	.contentbox img {
+		margin-bottom: 10px;
+	}
+
+	article {
+		width: 940px;
+		margin-left: 10px;
+		margin-bottom: 50px;
+	}
+	.news {
+		margin-bottom: 20px;
+	}
+	.news h2 {
+		font-size: 120%;
+		margin-bottom: 5px;
+	}
+	.news h2 a {
+		text-decoration: none;
+		color: rgb(189,30,44);
+	}
+	.newsmeta {
+		font-size: 70%;
+		margin-top: 5px;
+		float: right;
+		font-family: verdana;
+	}
+	.newsmeta a {
+		color: rgb(189,30,44);
+	}
+	footer nav {
+		margin-bottom: 0;
+		font-size: 80%;
+		font-family: verdana;
+	}
+}
